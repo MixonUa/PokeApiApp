@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CE3CC2A3-9696-45A0-880C-3D127FFCF684"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EDD8C0A7-4467-4B71-A3C3-1BA12592EC0A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PokeApiApp/Models/NetworkFetchService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "requestPokemonNames(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE14E912-99E6-4FFA-9B3D-B6F82200CCD5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PokeApiApp/Controllers/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "loadPokeNames()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FE14E912-99E6-4FFA-9B3D-B6F82200CCD5 - 14b656b73c1f988c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PokeApiApp.MainViewController.(loadPokeNames in _CE5A0031BC93CD81767133BF64A9F4AD)() -&gt; ()"
+                  moduleName = "PokeApiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mihailfrolov/Documents/GitHub/PokeApiApp/PokeApiApp/Controllers/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "30">
+               </Location>
+               <Location
+                  uuid = "FE14E912-99E6-4FFA-9B3D-B6F82200CCD5 - 14b656b73c1f988c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PokeApiApp.MainViewController.(loadPokeNames in _CE5A0031BC93CD81767133BF64A9F4AD)() -&gt; ()"
+                  moduleName = "PokeApiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mihailfrolov/Documents/GitHub/PokeApiApp/PokeApiApp/Controllers/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "58">
+               </Location>
+               <Location
+                  uuid = "FE14E912-99E6-4FFA-9B3D-B6F82200CCD5 - 14aabc3c8bd8d964"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;PokeApiApp.PokemonNamesModel&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PokeApiApp.MainViewController.(loadPokeNames in _CE5A0031BC93CD81767133BF64A9F4AD)() -&gt; ()"
+                  moduleName = "PokeApiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mihailfrolov/Documents/GitHub/PokeApiApp/PokeApiApp/Controllers/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "137">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E17B7C7-C8F6-43D8-A321-D4ED5BF62709"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PokeApiApp/Controllers/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "loadPokeNames()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E85DB083-E3D2-4B1C-B0A7-6008778A5661"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PokeApiApp/Controllers/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "loadPokeNames()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
