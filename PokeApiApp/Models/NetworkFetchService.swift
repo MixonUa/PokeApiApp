@@ -30,4 +30,24 @@ class NetworkFetchService {
             }
         }
     }
+    
+    func requestPokemonPictureURLs(name: String, completion: @escaping (PokemonPictureURLsModel?, Error?) -> Void) {
+        let baseURL = "https://pokeapi.co/api/v2/pokemon/"
+        let fullURL = baseURL + name.lowercased()
+        networkDataProvider.requestData(urlString: fullURL) { (data, error) in
+            guard let data = data else { return }
+            do {
+                let answer = try JSONDecoder().decode(PokemonPictureURLsModel.self, from: data)
+                DispatchQueue.main.async {
+                    completion(answer, nil)
+                }
+            } catch let decodingError {
+                DispatchQueue.main.async {
+                    print("ERROR for url: \(fullURL)")
+                    print(decodingError)
+                    completion(nil, decodingError)
+                }
+            }
+        }
+    }
 }
