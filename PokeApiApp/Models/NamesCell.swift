@@ -9,6 +9,7 @@ import UIKit
 
 class NamesCell: UITableViewCell {
     @IBOutlet weak var namesLabel: UILabel!
+    @IBOutlet weak var urlLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -21,7 +22,8 @@ class NamesCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
-    func updateCell(name: String) {
+    func updateCell(name: String, url: String) {
         namesLabel.text = name
+        urlLabel.text = url
     }
 }
